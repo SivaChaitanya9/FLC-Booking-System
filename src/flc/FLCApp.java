@@ -4,6 +4,7 @@ import java.util.*;
 
 public class FLCApp {
 
+    private final Timetable timetable       = new Timetable();
     private final MemberRegistry registry   = new MemberRegistry();
     private final Scanner scanner = new Scanner(System.in);
 
