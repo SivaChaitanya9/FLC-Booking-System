@@ -6,6 +6,7 @@ public class FLCApp {
 
     private final Timetable timetable       = new Timetable();
     private final MemberRegistry registry   = new MemberRegistry();
+    private final BookingManager manager    = new BookingManager();
     private final Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
